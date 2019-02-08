@@ -1,71 +1,62 @@
-$( "#clickme" ).click(function() {
+$( "#img" ).on("mouseenter", function() {
   $( "#img" ).animate({
     opacity: 0.25,
     left: "+=150",
     height: "toggle"
   }, 6000, function() {
-    // Animation complete.
   });
 });
 
-
-
-$( "#clickme" ).click(function() {
+$( "#img2" ).on("mouseenter", function() {
   $( "#img2" ).animate({
     opacity: 0.25,
     left: "+=-170",
     height: "toggle"
-  }, 6000, function() {
-    // Animation complete.
+  }, 5000, function() {
   });
 });
-
-$( "#clickme" ).click(function() {
+//
+$( "#img3" ).on("mouseenter", function() {
   $( "#img3" ).animate({
     opacity: 0.25,
     left: "+=130",
     height: "toggle"
-  }, 6000, function() {
-    // Animation complete.
+  }, 4000, function() {
   });
 });
-
-$( "#clickme" ).click(function() {
+//
+$( "#img4" ).on("mouseenter",function() {
   $( "#img4" ).animate({
     opacity: 0.25,
     left: "+=-140",
     height: "toggle"
-  }, 6000, function() {
-    // Animation complete.
+  }, 3000, function() {
   });
 });
-
-$( "#clickme" ).click(function() {
+//
+$( "#img5" ).on("mouseenter",function() {
   $( "#img5" ).animate({
     opacity: 0.25,
     left: "+=-120",
     height: "toggle"
-  }, 6000, function() {
-    // Animation complete.
+  }, 2000, function() {
   });
 });
-
-$( "#clickme" ).click(function() {
+//
+$( "#img6" ).on("mouseenter", function() {
   $( "#img6" ).animate({
     opacity: 0.25,
     left: "+=150",
     height: "toggle"
-  }, 6000, function() {
-    // Animation complete.
+  }, 2000, function() {
   });
 });
-
-$( "#clickme" ).click(function() {
+//
+$( "#img7" ).on("mouseenter", function() {
   $( "#img7" ).animate({
     opacity: 0.25,
     left: "+=-150",
     height: "toggle"
-  }, 6000, function() {
-    // Animation complete.
+  }, 3000, function() {
   });
 });
